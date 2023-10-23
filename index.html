@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Edu+NSW+ACT+Foundation&family=Fira+Sans:wght@200&family=Lobster&family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@300&family=Source+Code+Pro:ital@1&family=Source+Serif+4:opsz,wght@8..60,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Help</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're thrilled to have you here, and we want to ensure your online life is as safe and hassle-free as possible. Our mission is to protect your digital world by safeguarding your valuable passwords and sensitive information. With our user-friendly interface and robust security measures, you're in good hands.</p>
+        <h1>Your Password</h1>
+        <table>
+            <tr>
+                <th>website</th>
+                <th>username</th>
+                <th>password</th>
+                <th>delete</th>
+            </tr>
+           
+           
+          </table>
+        <h1>Add a Password</h1>
+        <form action="/submit" method="post">
+            <!-- Text input for website -->
+            <label for="username">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+           
+          
+        
+            <!-- Submit button -->
+            <button type="button" class="btn">Submit</button>
+            
+          </form>
+        
+    </div>
+    
+</body>
+      <script src="index.js"></script>
+</html>

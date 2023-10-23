@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif 4', serif;
+}
+nav{
+    background-color: rgba(164, 155, 161, 0.852);
+    padding: 12px 3px;
+    display: flex;
+}
+ul{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+ul li{
+  list-style: none;
+  margin: 0px 13px;
+  font-size: 20px;
+
+}
+ul li:hover{
+ 
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  padding: 2px;
+  cursor: pointer;
+
+}
+table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+    
+}
+.container{
+    margin: 13px auto;
+    max-width: 80vw;
+
+}
+h1,h2,h3{
+    margin: 23px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* .btnsm{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 5px;
+    cursor: pointer;
+} */
+
+img{
+    cursor: pointer;
+}
